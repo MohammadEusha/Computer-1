@@ -1,13 +1,12 @@
 import { faCheckCircle, faHourglassStart, faRocket } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useContext, useEffect, useState } from 'react';
-import { UserContext } from '../../../App';
+import React, { useEffect, useState } from 'react';
+
 
 const AllOrdersDetails = (props) => {
     const { status, _id, name, title, description, price, orderTime } = props.allOrder
 
     const [orderServices, setOrderServices] = useState([]);
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
     console.log(orderServices);
 
     useEffect(() => {

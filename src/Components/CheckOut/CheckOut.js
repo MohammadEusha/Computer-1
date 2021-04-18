@@ -20,11 +20,11 @@ const CheckOut = () => {
 
     }, [services])
 
-    const serviceType = services.find(serviceType => serviceType.title === title);
+    let serviceType = services.find(serviceType => serviceType.title === title);
 
     const addToCart = () => {
-        const newAddToCart = { ...loggedInUser, ...serviceType, _id: Math.random(), orderTime: new Date(), status: 'pending' };
-
+        const newAddToCart = { ...loggedInUser, ...serviceType, orderTime: new Date(), status: 'pending' };
+        delete newAddToCart._id
         fetch('https://young-beach-67366.herokuapp.com/addToCart', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
