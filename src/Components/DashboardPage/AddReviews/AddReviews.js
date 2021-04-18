@@ -20,7 +20,7 @@ const AddReviews = () => {
             img: imageURL
         }
 
-        const url = `http://localhost:5000/addReview`
+        const url = `https://young-beach-67366.herokuapp.com/addReview`
         console.log(reviewData)
 
         fetch(url, {

@@ -17,7 +17,7 @@ const AddAdmin = () => {
             email: data.email,
         }
 
-        const url = `http://localhost:5000/addAdmin`
+        const url = `https://young-beach-67366.herokuapp.com/addAdmin`
         console.log(adminData)
 
         fetch(url, {

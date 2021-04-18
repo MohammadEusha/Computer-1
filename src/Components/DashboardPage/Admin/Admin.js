@@ -22,7 +22,7 @@ const Admin = () => {
             image: imageURL
         }
 
-        const url = `http://localhost:5000/addService`
+        const url = `https://young-beach-67366.herokuapp.com/addService`
         console.log(serviceData)
 
         fetch(url, {

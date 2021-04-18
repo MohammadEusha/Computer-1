@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/isAdmin', {
+        fetch('https://young-beach-67366.herokuapp.com/isAdmin', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify({ email: loggedInUser.email })

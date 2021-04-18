@@ -5,7 +5,7 @@ import React from 'react';
 const ManageServicesDetails = (props) => {
     const { _id, title, price, description } = props.services
     const handleDelete = (id) => {
-        fetch(`http://localhost:5000/delete/${id}`, {
+        fetch(`https://young-beach-67366.herokuapp.com/delete/${id}`, {
             method: 'DELETE'
         })
             .then(res => res.json())

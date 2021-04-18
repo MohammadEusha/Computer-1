@@ -11,7 +11,7 @@ const AllOrders = () => {
 
     useEffect(() => {
 
-        fetch('http://localhost:5000/allOrder')
+        fetch('https://young-beach-67366.herokuapp.com/allOrder')
             .then(res => res.json())
             .then(data => setAllOrders(data))
 
