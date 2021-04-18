@@ -53,7 +53,7 @@ const Admin = () => {
             <div className="col-md-3 col-sm-6 col-12">
                 <Sidebar></Sidebar>
             </div>
-            <div className="col-md-7 col-sm-12 col-12">
+            <div className="col-md-7 col-sm-12 col-12 mt-5">
                 <div className="text-center">
                     <h1>HI {loggedInUser.name}...Add Service Details Here ....!!!!</h1>
                 </div>
@@ -75,7 +75,7 @@ const Admin = () => {
                         <input className="form-control" type="file" onChange={handleImageUpload} id="formFile" />
                     </div>
                     <div className="col-12 d-flex justify-content-end">
-                        <button className="mt-4 btn btn-dark btn-lg " type="submit" ><FontAwesomeIcon icon={faPlusCircle} />  Add Service</button>
+                        <button className="mt-4 btn btn-secondary btn-lg " type="submit" ><FontAwesomeIcon icon={faPlusCircle} />  Add Service</button>
                     </div>
                 </form>
             </div>

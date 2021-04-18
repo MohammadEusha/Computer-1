@@ -18,7 +18,7 @@ const ServiceInfo = (props) => {
             <div className="row g-0">
                 <div className="col-md-7">
                     <img src={image} alt="..." className="img-fluid transaction-area" />
-                    <button onClick={() => handleBuy(title)} className="btn btn-dark btn-lg m-3"><FontAwesomeIcon icon={faTools} /> Repair</button>
+                    <button onClick={() => handleBuy(title)} className="btn btn-secondary btn-lg m-3"><FontAwesomeIcon icon={faTools} /> Repair</button>
                 </div>
                 <div className="col-md-5">
                     <div className="card-body">

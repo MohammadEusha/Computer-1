@@ -19,11 +19,11 @@ const Orders = () => {
             <table className="table mt-5 table-light">
                 <thead>
                     <tr>
-                        <th className="text-secondary text-left" scope="col">Sr No</th>
-                        <th className="text-secondary" scope="col">Service Name</th>
-                        <th className="text-secondary" scope="col">Orders Placed At</th>
-                        <th className="text-secondary" scope="col">Price</th>
-                        <th className="text-secondary" scope="col">Status</th>
+                        <th className="text-dark text-left" scope="col">Sr No</th>
+                        <th className="text-dark" scope="col">Service Name</th>
+                        <th className="text-dark" scope="col">Orders Placed At</th>
+                        <th className="text-dark" scope="col">Price</th>
+                        <th className="text-dark" scope="col">Status</th>
                     </tr>
                 </thead>
                 <tbody>

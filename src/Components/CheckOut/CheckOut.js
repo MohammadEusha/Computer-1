@@ -60,7 +60,7 @@ const CheckOut = () => {
                         </tbody>
                     </table>
                     <div className="col-md-12  d-flex justify-content-end">
-                        <button onClick={addToCart} className="btn btn-dark btn-lg" ><FontAwesomeIcon icon={faCartPlus} /> Add To Cart</button>
+                        <button onClick={addToCart} className="btn btn-secondary btn-lg" ><FontAwesomeIcon icon={faCartPlus} /> Add To Cart</button>
                     </div>
                 </div>
                 <div className="col-md-5">

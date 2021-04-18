@@ -49,7 +49,7 @@ const Navbar = () => {
                                 </li>
                             </div>}
                             <li style={{ marginLeft: '40px', fontWeight: 'bold' }} className="nav-item pt-2 fw-bold">
-                                <Link style={{ textDecoration: 'none', fontWeight: 'bold', fontSize: '20px' }} className="btn btn-dark text-light" to="/login"><FontAwesomeIcon icon={faUserPlus} /> LogIn</Link>
+                                <Link style={{ textDecoration: 'none', fontWeight: 'bold', fontSize: '20px' }} className="btn btn-secondary text-light" to="/login"><FontAwesomeIcon icon={faUserPlus} /> LogIn</Link>
                             </li>
                         </ul>
                     </div>

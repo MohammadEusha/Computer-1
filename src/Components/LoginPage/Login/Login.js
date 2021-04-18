@@ -45,8 +45,8 @@ const Login = () => {
         <div>
             <Navbar></Navbar>
             <div className="text-center mt-5 pt-5">
-                <h1>Please Click The Button To Login ...!!!!</h1>
-                <button onClick={handleGoogleSignIn} className="btn btn-dark btn-lg mt-1"><FontAwesomeIcon icon={faUserPlus} /> Sign In With Google </button>
+                <h1>Please Click The button To Login ...!!!!</h1>
+                <button onClick={handleGoogleSignIn} className="btn btn-secondary btn-lg mt-1"><FontAwesomeIcon icon={faUserPlus} /> Sign In With Google </button>
             </div>
         </div>
     );

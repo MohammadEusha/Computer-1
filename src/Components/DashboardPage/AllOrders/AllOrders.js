@@ -22,11 +22,15 @@ const AllOrders = () => {
             <div className="col-md-3 col-sm-6 col-12">
                 <Sidebar></Sidebar>
             </div>
-            <div className="col-md-7 col-sm-12 col-12">
+            <div className="col-md-9 col-sm-12 col-12">
                 <h1 className="mt-5 text-center">HI {loggedInUser.name}...You Have  Total  {allOrders.length} Orders Pending....!!!!!</h1>
-                {
-                    allOrders.map(allOrder => <AllOrdersDetails allOrder={allOrder}></AllOrdersDetails>)
-                }
+
+                <div className="row d-flex justify-content-start">
+                    {
+                        allOrders.map(allOrder => <AllOrdersDetails allOrder={allOrder}></AllOrdersDetails>)
+                    }
+                </div>
+
 
             </div>
 

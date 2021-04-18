@@ -44,7 +44,7 @@ const PaymentForm = () => {
             <form onSubmit={handleSubmit}>
                 <CardElement />
                 <div className="d-flex justify-content-start">
-                    <button className="btn btn-dark btn-lg mt-4" type="submit" disabled={!stripe}>
+                    <button className="btn btn-secondary btn-lg mt-4" type="submit" disabled={!stripe}>
                         <FontAwesomeIcon icon={faStripe} />  Pay
                      </button>
                 </div>

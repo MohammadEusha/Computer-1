@@ -21,7 +21,7 @@ const Sidebar = () => {
     }, [loggedInUser.email])
 
     return (
-        <div className="sidebar bg-secondary d-flex flex-column justify-content-between col-md-2 py-5 px-4" style={{ height: "100vh" }}>
+        <div className="sidebar footer-area d-flex flex-column justify-content-between col-md-2 py-5 px-4" style={{ height: "100vh" }}>
             <ul className="list-unstyled">
                 <li>
                     <Link to="/" style={{ textDecoration: 'none' }} className="text-white">

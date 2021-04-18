@@ -20,7 +20,7 @@ const About = () => {
                     <div className="card-body">
                         <h4>Expert Engineers</h4>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button className="btn btn-dark w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
+                        <button className="btn btn-secondary w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
                     </div>
                 </div>
                 <div className="card shadow-lg col-md-2 m-3">
@@ -28,7 +28,7 @@ const About = () => {
                     <div className="card-body">
                         <h4>On time Delivery</h4>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button className="btn btn-dark w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
+                        <button className="btn btn-secondary w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
                     </div>
                 </div>
                 <div className="card shadow-lg col-md-2 m-3">
@@ -36,7 +36,7 @@ const About = () => {
                     <div className="card-body">
                         <h4>Best Technology</h4>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button className="btn btn-dark w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
+                        <button className="btn btn-secondary w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
                     </div>
                 </div>
                 <div className="card shadow-lg col-md-2 m-3">
@@ -44,7 +44,7 @@ const About = () => {
                     <div className="card-body">
                         <h4>25 Years Experience</h4>
                         <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <button className="btn btn-dark w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
+                        <button className="btn btn-secondary w-100"><FontAwesomeIcon icon={faChalkboardTeacher} /> Learn More</button>
                     </div>
 
                 </div>

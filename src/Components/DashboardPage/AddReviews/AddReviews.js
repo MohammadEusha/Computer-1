@@ -48,11 +48,11 @@ const AddReviews = () => {
     }
     return (
         <div >
-            <div className="row bg-light">
+            <div className="row bg-light ">
                 <div className="col-md-3 col-sm-6 col-12">
                     <Sidebar></Sidebar>
                 </div>
-                <div className="col-md-7 col-sm-12 col-12">
+                <div className="col-md-7 col-sm-12 col-12 mt-5">
                     <div className="text-center">
                         <h1>HI {loggedInUser.name}....Add Reviews Here ....!!!!</h1>
                     </div>
@@ -74,7 +74,7 @@ const AddReviews = () => {
                             <input className="form-control" type="file" onChange={handleImageUpload} id="formFile" />
                         </div>
                         <div className="col-12 d-flex justify-content-end">
-                            <button className="mt-4 btn btn-dark btn-lg " type="submit" ><FontAwesomeIcon icon={faPlusCircle} />  Add Reviews</button>
+                            <button className="mt-4 btn btn-secondary btn-lg " type="submit" ><FontAwesomeIcon icon={faPlusCircle} />  Add Reviews</button>
                         </div>
                     </form>
                 </div>
