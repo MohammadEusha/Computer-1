@@ -1,0 +1,7 @@
+.transaction {
+  transition-property: transform;
+  transition-duration: 1s;
+}
+.transaction:hover {
+  transform: rotate(360deg);
+}
