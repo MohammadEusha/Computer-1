@@ -37,9 +37,9 @@ const AllOrdersDetails = (props) => {
                 <li className="list-group-item "><span className="fw-bolder text-dark">Description : {description}</span> </li>
                 <li className="list-group-item "><span className="fw-bolder text-dark">Orders Placed At : {(new Date(orderTime).toDateString('dd/MM/yyyy'))}</span> </li>
                 <li className="list-group-item ">
-                    {status !== "Pending" && <button onClick={() => handleUpdate('pending', _id)} className="btn btn-outline-secondary fw-bold text-dark"><FontAwesomeIcon icon={faHourglassStart} /> Pending</button>}
-                    {status !== "On Going" && <button onClick={() => handleUpdate('going', _id)} className="btn btn-outline-secondary fw-bold ms-3 text-dark"><FontAwesomeIcon icon={faRocket} /> On Going</button>}
-                    {status !== "Done" && <button onClick={() => handleUpdate('done', _id)} className="btn btn-outline-secondary text-dark fw-bold ms-3"><FontAwesomeIcon icon={faCheckCircle} /> Done</button>}
+                    {status !== "pending" && <button onClick={() => handleUpdate('Pending', _id)} className="btn btn-outline-secondary fw-bold text-dark"><FontAwesomeIcon icon={faHourglassStart} /> Pending</button>}
+                    {status !== "on going" && <button onClick={() => handleUpdate('On Going', _id)} className="btn btn-outline-secondary fw-bold ms-3 text-dark"><FontAwesomeIcon icon={faRocket} /> On Going</button>}
+                    {status !== "done" && <button onClick={() => handleUpdate('Done', _id)} className="btn btn-outline-secondary text-dark fw-bold ms-3"><FontAwesomeIcon icon={faCheckCircle} /> Done</button>}
                 </li>
 
             </ul>

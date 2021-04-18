@@ -54,7 +54,7 @@ const AddReviews = () => {
                 </div>
                 <div className="col-md-7 col-sm-12 col-12">
                     <div className="text-center">
-                        <h1>hI {loggedInUser.name}....Add Reviews Here ....!!!!</h1>
+                        <h1>HI {loggedInUser.name}....Add Reviews Here ....!!!!</h1>
                     </div>
                     <form className="row mt-5 m-5" onSubmit={handleSubmit(onSubmit)}>
                         <div className="col-md-6">

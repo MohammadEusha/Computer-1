@@ -69,9 +69,6 @@ const Sidebar = () => {
                 </div>}
 
             </ul>
-            <div>
-                <Link to="/" className="text-white"><FontAwesomeIcon icon={faUserMinus} /> <span>Logout</span></Link>
-            </div>
         </div>
     );
 };
