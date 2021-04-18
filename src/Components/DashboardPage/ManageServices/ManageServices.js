@@ -21,7 +21,7 @@ const ManageServices = () => {
                 <Sidebar></Sidebar>
             </div>
             <div className="col-md-9 col-sm-12 col-12 mt-5">
-                <h1 className="text-center">HI {loggedInUser.name}...You Have Total {manageServices.length} Products ....!!!!!</h1>
+                <h1 className="text-center">HI {loggedInUser.name}...You Have Total {manageServices.length} Service ....!!!!!</h1>
                 <div className="row d-flex justify-content-start">
                     {
                         manageServices.map(services => <ManageServicesDetails services={services}></ManageServicesDetails>)

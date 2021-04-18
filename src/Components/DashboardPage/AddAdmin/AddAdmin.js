@@ -35,7 +35,7 @@ const AddAdmin = () => {
                 </div>
                 <div className="col-md-7 col-sm-12 col-12 mt-5">
                     <div className="text-center">
-                        <h1>HI {loggedInUser.name} ...Add Service Details Here ....!!!!</h1>
+                        <h1>HI {loggedInUser.name} ...Add Admin Here ....!!!!</h1>
                     </div>
                     <form className=" mt-5 m-5" onSubmit={handleSubmit(onSubmit)}>
                         <div className="col-md-8">
