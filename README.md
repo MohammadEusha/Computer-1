@@ -1,13 +1,54 @@
-### Website Name
+# Website Name
 
 Website Name : Computer Garage
 
-### About this Website
 
-The Website is about your computer repair services.In this site you will find some cards about names of services,its prices and its descriptions.You will find a button in every card named as Repair.Click on the button then login with your Google account and repair your computer.
 
-### Website Link
+# Website Link
 
 https://computer-repair-web.web.app/
 
-# complete-website-client-MohammadEusha
+
+
+# About this Website
+
+The Website is about your computer repair services.In this site you will find some cards about names of services,its prices and its descriptions.You will find a button in every card named as Repair.Click on the button then login with your Google account and repair your computer.
+
+
+
+### Project Details :-
+
+The Website is about your computer repair services . In this site you will find some cards about names of services , its prices and its descriptions . You will find a button in every card named as Repair . Click on the button then login with your Google account and repair your computer.
+
+
+
+### Features :-
+
+• Google Sign-In
+
+• Admin Panel
+
+• Customer Panel
+
+• Service Add System
+
+• Customer Review System
+
+• Stripe Payment System
+
+• Status Update
+
+
+
+### Technology :-
+
+• Frontend : HTML , CSS, Bootstrap, JavaScript, React JS
+
+• Backend : NodeJS, Express, Postman, Mongo DB.
+
+• Deploy Tools : Firebase, Heroku, Github.
+
+
+
+
+
