@@ -38,7 +38,7 @@ The Website is about your computer repair services . In this site you will find 
 
 ### Technology :-
 
-• Frontend : HTML , CSS, Bootstrap, JavaScript, React JS
+• Frontend : CSS, Bootstrap, JavaScript, React JS
 
 • Backend : NodeJS, Express, Postman, Mongo DB.
 
